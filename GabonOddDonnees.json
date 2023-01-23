@@ -2379,13 +2379,13 @@
             "indicateurs": [
                 {
                     "codeIndicateur": "8.10.1",
-                    "graphique": "Bandes",
+                    "graphique": "Liste",
                     "indicateurDisponible": "Oui",
                     "indicateur": "8.10.1 a) Nombre de succursales de banques commerciales pour 100 000 adultes et b) nombre de distributeurs automatiques de billets pour 100 000 adultes ",
                     "donnees": [
                         {
                             "description": "Nombre de succursales",
-                            "unite": "%",
+                            "unite": "pour 100 000 adultes",
                             "groupe": "",
                             "parametre": "",
                             "valeurs": {
@@ -2394,7 +2394,7 @@
                         },
                         {
                             "description": "Distributeurs automatiques de billets",
-                            "unite": "%",
+                            "unite": "pour 100 000 adultes",
                             "groupe": "",
                             "parametre": "",
                             "valeurs": {
@@ -2583,10 +2583,20 @@
             "indicateurs": [
                 {
                     "codeIndicateur": "9.4.1",
-                    "graphique": "Bandes",
+                    "graphique": "GroupeLignes",
                     "indicateurDisponible": "Oui",
                     "indicateur": "9.4.1 Emission de CO2 par unité de valeur ajoutée",
                     "donnees": [
+                        {
+                            "description": "Emission de CO2",
+                            "unite": "",
+                            "groupe": "",
+                            "parametre": "",
+                            "valeurs": {
+                                "2010": "3.3",
+                                "2019": "2.5"
+                            }
+                        },
                         {
                             "description": "Internet",
                             "unite": "%",
